@@ -1,3 +1,0 @@
-/home/carl/Desktop/micro-cmake-toolchain-example/build/CMakeFiles/edit_cache.dir
-/home/carl/Desktop/micro-cmake-toolchain-example/build/CMakeFiles/rebuild_cache.dir
-/home/carl/Desktop/micro-cmake-toolchain-example/build/CMakeFiles/testproj.dir
