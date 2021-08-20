@@ -16,10 +16,10 @@ The C compiler identification is GNU, found in "/home/carl/Desktop/micro-cmake-t
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/carl/Desktop/micro-cmake-toolchain-example/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_ae0f5/fast && /usr/bin/make  -f CMakeFiles/cmTC_ae0f5.dir/build.make CMakeFiles/cmTC_ae0f5.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_90baa/fast && /usr/bin/make  -f CMakeFiles/cmTC_90baa.dir/build.make CMakeFiles/cmTC_90baa.dir/build
 make[1]: Entering directory '/home/carl/Desktop/micro-cmake-toolchain-example/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj
-/usr/bin/arm-none-eabi-gcc   -mlittle-endian -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb-interwork -ffreestanding -ffunction-sections -fdata-sections --specs=nosys.specs    -v -o CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj -c /usr/cmake/cmake-3.21.1/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-gcc   -mlittle-endian -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb-interwork -ffreestanding -ffunction-sections -fdata-sections --specs=nosys.specs    -v -o CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj -c /usr/cmake/cmake-3.21.1/share/cmake-3.21/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 Reading specs from /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -28,8 +28,8 @@ Target: arm-none-eabi
 Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:9-2019-q4-0ubuntu1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
 Thread model: single
 gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (15:9-2019-q4-0ubuntu1) 
-COLLECT_GCC_OPTIONS='-mlittle-endian' '-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb-interwork' '-ffreestanding' '-ffunction-sections' '-fdata-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
- /usr/lib/gcc/arm-none-eabi/9.2.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -D__USES_INITFINI__ /usr/cmake/cmake-3.21.1/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb-interwork -march=armv7e-m+fp -auxbase-strip CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj -version -ffreestanding -ffunction-sections -fdata-sections -o /tmp/cctfBnDI.s
+COLLECT_GCC_OPTIONS='-mlittle-endian' '-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb-interwork' '-ffreestanding' '-ffunction-sections' '-fdata-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
+ /usr/lib/gcc/arm-none-eabi/9.2.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -D__USES_INITFINI__ /usr/cmake/cmake-3.21.1/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb-interwork -march=armv7e-m+fp -auxbase-strip CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj -version -ffreestanding -ffunction-sections -fdata-sections -o /tmp/cczXudrx.s
 GNU C17 (15:9-2019-q4-0ubuntu1) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
 	compiled by GNU C version 9.2.1 20200306, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -46,17 +46,17 @@ GNU C17 (15:9-2019-q4-0ubuntu1) version 9.2.1 20191025 (release) [ARM/arm-9-bran
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 66eaa5baf4e6721a1f372763dea5d447
-COLLECT_GCC_OPTIONS='-mlittle-endian' '-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb-interwork' '-ffreestanding' '-ffunction-sections' '-fdata-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
- /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/as -v -EL -march=armv7e-m -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj /tmp/cctfBnDI.s
+COLLECT_GCC_OPTIONS='-mlittle-endian' '-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb-interwork' '-ffreestanding' '-ffunction-sections' '-fdata-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
+ /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/as -v -EL -march=armv7e-m -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj /tmp/cczXudrx.s
 GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4ubuntu1+13ubuntu1) 2.34
 COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mlittle-endian' '-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb-interwork' '-ffreestanding' '-ffunction-sections' '-fdata-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
-Linking C static library libcmTC_ae0f5.a
-/usr/cmake/cmake-3.21.1/bin/cmake -P CMakeFiles/cmTC_ae0f5.dir/cmake_clean_target.cmake
-/usr/cmake/cmake-3.21.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae0f5.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_ae0f5.a CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_ae0f5.a
+COLLECT_GCC_OPTIONS='-mlittle-endian' '-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb-interwork' '-ffreestanding' '-ffunction-sections' '-fdata-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
+Linking C static library libcmTC_90baa.a
+/usr/cmake/cmake-3.21.1/bin/cmake -P CMakeFiles/cmTC_90baa.dir/cmake_clean_target.cmake
+/usr/cmake/cmake-3.21.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90baa.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_90baa.a CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_90baa.a
 make[1]: Leaving directory '/home/carl/Desktop/micro-cmake-toolchain-example/build/CMakeFiles/CMakeTmp'
 
 
@@ -78,10 +78,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/carl/Desktop/micro-cmake-toolchain-example/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_ae0f5/fast && /usr/bin/make  -f CMakeFiles/cmTC_ae0f5.dir/build.make CMakeFiles/cmTC_ae0f5.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_90baa/fast && /usr/bin/make  -f CMakeFiles/cmTC_90baa.dir/build.make CMakeFiles/cmTC_90baa.dir/build]
   ignore line: [make[1]: Entering directory '/home/carl/Desktop/micro-cmake-toolchain-example/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/bin/arm-none-eabi-gcc   -mlittle-endian -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb-interwork -ffreestanding -ffunction-sections -fdata-sections --specs=nosys.specs    -v -o CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj -c /usr/cmake/cmake-3.21.1/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/arm-none-eabi-gcc   -mlittle-endian -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb-interwork -ffreestanding -ffunction-sections -fdata-sections --specs=nosys.specs    -v -o CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj -c /usr/cmake/cmake-3.21.1/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -90,8 +90,8 @@ Parsed C implicit link information from above output:
   ignore line: [Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:9-2019-q4-0ubuntu1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-Gl9kT9/gcc-arm-none-eabi-9-2019-q4=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip]
   ignore line: [Thread model: single]
   ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (15:9-2019-q4-0ubuntu1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlittle-endian' '-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb-interwork' '-ffreestanding' '-ffunction-sections' '-fdata-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -D__USES_INITFINI__ /usr/cmake/cmake-3.21.1/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb-interwork -march=armv7e-m+fp -auxbase-strip CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj -version -ffreestanding -ffunction-sections -fdata-sections -o /tmp/cctfBnDI.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlittle-endian' '-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb-interwork' '-ffreestanding' '-ffunction-sections' '-fdata-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -D__USES_INITFINI__ /usr/cmake/cmake-3.21.1/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb-interwork -march=armv7e-m+fp -auxbase-strip CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj -version -ffreestanding -ffunction-sections -fdata-sections -o /tmp/cczXudrx.s]
   ignore line: [GNU C17 (15:9-2019-q4-0ubuntu1) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 9.2.1 20200306  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -108,17 +108,17 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 66eaa5baf4e6721a1f372763dea5d447]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlittle-endian' '-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb-interwork' '-ffreestanding' '-ffunction-sections' '-fdata-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/as -v -EL -march=armv7e-m -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj /tmp/cctfBnDI.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlittle-endian' '-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb-interwork' '-ffreestanding' '-ffunction-sections' '-fdata-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/as -v -EL -march=armv7e-m -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj /tmp/cczXudrx.s]
   ignore line: [GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4ubuntu1+13ubuntu1) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/9.2.1/:/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlittle-endian' '-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb-interwork' '-ffreestanding' '-ffunction-sections' '-fdata-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
-  ignore line: [Linking C static library libcmTC_ae0f5.a]
-  ignore line: [/usr/cmake/cmake-3.21.1/bin/cmake -P CMakeFiles/cmTC_ae0f5.dir/cmake_clean_target.cmake]
-  ignore line: [/usr/cmake/cmake-3.21.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae0f5.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_ae0f5.a CMakeFiles/cmTC_ae0f5.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_ae0f5.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlittle-endian' '-mthumb' '-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb-interwork' '-ffreestanding' '-ffunction-sections' '-fdata-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [Linking C static library libcmTC_90baa.a]
+  ignore line: [/usr/cmake/cmake-3.21.1/bin/cmake -P CMakeFiles/cmTC_90baa.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/cmake/cmake-3.21.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90baa.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_90baa.a CMakeFiles/cmTC_90baa.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_90baa.a]
   ignore line: [make[1]: Leaving directory '/home/carl/Desktop/micro-cmake-toolchain-example/build/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
